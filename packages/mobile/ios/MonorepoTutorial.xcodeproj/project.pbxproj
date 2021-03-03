@@ -15,11 +15,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MonorepoTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MonorepoTutorialTests.m */; };
-		6EC32DB3818B7C374AE0DDE3 /* libPods-MonorepoTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BAA2B5ED9690D91B28ED8C /* libPods-MonorepoTutorial.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		82CA05BE2399D71A51F5B546 /* libPods-MonorepoTutorial-MonorepoTutorialTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A2BAD0F437F82B7F76CADA /* libPods-MonorepoTutorial-MonorepoTutorialTests.a */; };
-		ACE893A4D2EE1F17314931AF /* libPods-MonorepoTutorial-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C654A464F0AD818920A17124 /* libPods-MonorepoTutorial-tvOSTests.a */; };
-		E6B18CF6B33B1465F40E9DB4 /* libPods-MonorepoTutorial-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76B59E01651A2C75813C72 /* libPods-MonorepoTutorial-tvOS.a */; };
+		8BC73E99D7D6BFD3E426B9F3 /* libPods-MonorepoTutorial-MonorepoTutorialTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FE8E8F79FE1BCA3A2ADCD8 /* libPods-MonorepoTutorial-MonorepoTutorialTests.a */; };
+		8E3226FDA03A116DA853AF4F /* libPods-MonorepoTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA94DF58AA5277B3A2EF28F /* libPods-MonorepoTutorial.a */; };
+		BBFABDDEF863219EA3F3B1FB /* libPods-MonorepoTutorial-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2894476CBA9D242717E080 /* libPods-MonorepoTutorial-tvOSTests.a */; };
+		C7E5FBF7946B172DF9F7D389 /* libPods-MonorepoTutorial-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C94120CBB55C6699CE8628A3 /* libPods-MonorepoTutorial-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* MonorepoTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonorepoTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MonorepoTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonorepoTutorialTests.m; sourceTree = "<group>"; };
+		0E2894476CBA9D242717E080 /* libPods-MonorepoTutorial-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* MonorepoTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonorepoTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MonorepoTutorial/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MonorepoTutorial/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MonorepoTutorial/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MonorepoTutorial/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MonorepoTutorial/main.m; sourceTree = "<group>"; };
-		26BAA2B5ED9690D91B28ED8C /* libPods-MonorepoTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D41144F853768D03C8D9D45 /* Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-MonorepoTutorialTests/Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* MonorepoTutorial-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MonorepoTutorial-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* MonorepoTutorial-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MonorepoTutorial-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E3491AF755996EDFE50DD1D /* Pods-MonorepoTutorial-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOS/Pods-MonorepoTutorial-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		4FE339062EE8EC0BE111CBA1 /* Pods-MonorepoTutorial-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOS/Pods-MonorepoTutorial-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		518CE2F6F1FF9197F91EDE85 /* Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-MonorepoTutorialTests/Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig"; sourceTree = "<group>"; };
-		527ABE24CF43F2AD20B5C5BD /* Pods-MonorepoTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial.debug.xcconfig"; sourceTree = "<group>"; };
-		689DE2DB77BBF213D898A3CF /* Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-MonorepoTutorialTests/Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37C411C2CA41975336DD910D /* Pods-MonorepoTutorial-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOS/Pods-MonorepoTutorial-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4A2C6BA7A9EB37650DB5F00A /* Pods-MonorepoTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		67043B813F6F6252884A3C14 /* Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-MonorepoTutorialTests/Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72FE8E8F79FE1BCA3A2ADCD8 /* libPods-MonorepoTutorial-MonorepoTutorialTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial-MonorepoTutorialTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MonorepoTutorial/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C654A464F0AD818920A17124 /* libPods-MonorepoTutorial-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3A2BAD0F437F82B7F76CADA /* libPods-MonorepoTutorial-MonorepoTutorialTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial-MonorepoTutorialTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB76B59E01651A2C75813C72 /* libPods-MonorepoTutorial-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3898C2DBB0A8B5F32BAFD6E /* Pods-MonorepoTutorial-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOSTests/Pods-MonorepoTutorial-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CA94DF58AA5277B3A2EF28F /* libPods-MonorepoTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3F0B7069ED524AB4559F5E /* Pods-MonorepoTutorial-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOSTests/Pods-MonorepoTutorial-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		92BDA4D7DEDE912CEBEDB2F9 /* Pods-MonorepoTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		9B73BE069BD4DE6CCC9B0EC9 /* Pods-MonorepoTutorial-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOSTests/Pods-MonorepoTutorial-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB92286F7F9780198FF5759 /* Pods-MonorepoTutorial-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOS/Pods-MonorepoTutorial-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C94120CBB55C6699CE8628A3 /* libPods-MonorepoTutorial-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MonorepoTutorial-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EED569C48F84064C59A8AA61 /* Pods-MonorepoTutorial-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial-tvOSTests/Pods-MonorepoTutorial-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4F8534FDD00B6916C4D98E1 /* Pods-MonorepoTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonorepoTutorial.release.xcconfig"; path = "Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CA05BE2399D71A51F5B546 /* libPods-MonorepoTutorial-MonorepoTutorialTests.a in Frameworks */,
+				8BC73E99D7D6BFD3E426B9F3 /* libPods-MonorepoTutorial-MonorepoTutorialTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EC32DB3818B7C374AE0DDE3 /* libPods-MonorepoTutorial.a in Frameworks */,
+				8E3226FDA03A116DA853AF4F /* libPods-MonorepoTutorial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6B18CF6B33B1465F40E9DB4 /* libPods-MonorepoTutorial-tvOS.a in Frameworks */,
+				C7E5FBF7946B172DF9F7D389 /* libPods-MonorepoTutorial-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE893A4D2EE1F17314931AF /* libPods-MonorepoTutorial-tvOSTests.a in Frameworks */,
+				BBFABDDEF863219EA3F3B1FB /* libPods-MonorepoTutorial-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				26BAA2B5ED9690D91B28ED8C /* libPods-MonorepoTutorial.a */,
-				D3A2BAD0F437F82B7F76CADA /* libPods-MonorepoTutorial-MonorepoTutorialTests.a */,
-				DB76B59E01651A2C75813C72 /* libPods-MonorepoTutorial-tvOS.a */,
-				C654A464F0AD818920A17124 /* libPods-MonorepoTutorial-tvOSTests.a */,
+				8CA94DF58AA5277B3A2EF28F /* libPods-MonorepoTutorial.a */,
+				72FE8E8F79FE1BCA3A2ADCD8 /* libPods-MonorepoTutorial-MonorepoTutorialTests.a */,
+				C94120CBB55C6699CE8628A3 /* libPods-MonorepoTutorial-tvOS.a */,
+				0E2894476CBA9D242717E080 /* libPods-MonorepoTutorial-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,16 +152,15 @@
 		66FFEDF964EBE6CF6F86DA2B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				527ABE24CF43F2AD20B5C5BD /* Pods-MonorepoTutorial.debug.xcconfig */,
-				F4F8534FDD00B6916C4D98E1 /* Pods-MonorepoTutorial.release.xcconfig */,
-				689DE2DB77BBF213D898A3CF /* Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig */,
-				518CE2F6F1FF9197F91EDE85 /* Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig */,
-				3E3491AF755996EDFE50DD1D /* Pods-MonorepoTutorial-tvOS.debug.xcconfig */,
-				4FE339062EE8EC0BE111CBA1 /* Pods-MonorepoTutorial-tvOS.release.xcconfig */,
-				EED569C48F84064C59A8AA61 /* Pods-MonorepoTutorial-tvOSTests.debug.xcconfig */,
-				E3898C2DBB0A8B5F32BAFD6E /* Pods-MonorepoTutorial-tvOSTests.release.xcconfig */,
+				4A2C6BA7A9EB37650DB5F00A /* Pods-MonorepoTutorial.debug.xcconfig */,
+				92BDA4D7DEDE912CEBEDB2F9 /* Pods-MonorepoTutorial.release.xcconfig */,
+				67043B813F6F6252884A3C14 /* Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig */,
+				1D41144F853768D03C8D9D45 /* Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig */,
+				37C411C2CA41975336DD910D /* Pods-MonorepoTutorial-tvOS.debug.xcconfig */,
+				9FB92286F7F9780198FF5759 /* Pods-MonorepoTutorial-tvOS.release.xcconfig */,
+				9B73BE069BD4DE6CCC9B0EC9 /* Pods-MonorepoTutorial-tvOSTests.debug.xcconfig */,
+				8F3F0B7069ED524AB4559F5E /* Pods-MonorepoTutorial-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MonorepoTutorialTests" */;
 			buildPhases = (
-				B2D468947D2DF97F4816DB76 /* [CP] Check Pods Manifest.lock */,
+				113172AD31630FE47419A942 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				D1149A268C38565F119B3C8B /* [CP] Copy Pods Resources */,
+				45F9E6EF37691EA9BC367372 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MonorepoTutorial" */;
 			buildPhases = (
-				E0BAB36A6C2243D2F0D5054D /* [CP] Check Pods Manifest.lock */,
+				597572FEBB0EDBB63C332F1F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				359E4EEC5A38AE983AF7DE1D /* [CP] Copy Pods Resources */,
+				602E57CE9BF69196A15F5A64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MonorepoTutorial-tvOS" */;
 			buildPhases = (
-				00E00C60AF79C421A7E59561 /* [CP] Check Pods Manifest.lock */,
+				0DAC0F1E68F42875D094E204 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MonorepoTutorial-tvOSTests" */;
 			buildPhases = (
-				A5BB9D307C0B63A67BBEF413 /* [CP] Check Pods Manifest.lock */,
+				2DE58F001855BCF9832D75AC /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -375,9 +374,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../../../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		00E00C60AF79C421A7E59561 /* [CP] Check Pods Manifest.lock */ = {
+		0DAC0F1E68F42875D094E204 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,61 +398,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		359E4EEC5A38AE983AF7DE1D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A5BB9D307C0B63A67BBEF413 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MonorepoTutorial-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2D468947D2DF97F4816DB76 /* [CP] Check Pods Manifest.lock */ = {
+		113172AD31630FE47419A942 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,7 +420,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1149A268C38565F119B3C8B /* [CP] Copy Pods Resources */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2DE58F001855BCF9832D75AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonorepoTutorial-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F9E6EF37691EA9BC367372 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,7 +474,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonorepoTutorial-MonorepoTutorialTests/Pods-MonorepoTutorial-MonorepoTutorialTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E0BAB36A6C2243D2F0D5054D /* [CP] Check Pods Manifest.lock */ = {
+		597572FEBB0EDBB63C332F1F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,6 +494,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602E57CE9BF69196A15F5A64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonorepoTutorial/Pods-MonorepoTutorial-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -608,7 +607,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 689DE2DB77BBF213D898A3CF /* Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig */;
+			baseConfigurationReference = 67043B813F6F6252884A3C14 /* Pods-MonorepoTutorial-MonorepoTutorialTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +630,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 518CE2F6F1FF9197F91EDE85 /* Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig */;
+			baseConfigurationReference = 1D41144F853768D03C8D9D45 /* Pods-MonorepoTutorial-MonorepoTutorialTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +650,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 527ABE24CF43F2AD20B5C5BD /* Pods-MonorepoTutorial.debug.xcconfig */;
+			baseConfigurationReference = 4A2C6BA7A9EB37650DB5F00A /* Pods-MonorepoTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +673,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4F8534FDD00B6916C4D98E1 /* Pods-MonorepoTutorial.release.xcconfig */;
+			baseConfigurationReference = 92BDA4D7DEDE912CEBEDB2F9 /* Pods-MonorepoTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +694,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E3491AF755996EDFE50DD1D /* Pods-MonorepoTutorial-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 37C411C2CA41975336DD910D /* Pods-MonorepoTutorial-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +722,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FE339062EE8EC0BE111CBA1 /* Pods-MonorepoTutorial-tvOS.release.xcconfig */;
+			baseConfigurationReference = 9FB92286F7F9780198FF5759 /* Pods-MonorepoTutorial-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +750,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED569C48F84064C59A8AA61 /* Pods-MonorepoTutorial-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9B73BE069BD4DE6CCC9B0EC9 /* Pods-MonorepoTutorial-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +777,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3898C2DBB0A8B5F32BAFD6E /* Pods-MonorepoTutorial-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 8F3F0B7069ED524AB4559F5E /* Pods-MonorepoTutorial-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

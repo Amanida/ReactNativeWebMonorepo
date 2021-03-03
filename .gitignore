@@ -56,4 +56,15 @@ buck-out/
 *.jsbundle
 
 # CocoaPods
-/ios/Pods/
+packages/mobile/ios/Pods/
+
+*.jsbundle
+*.tsbuildinfo
+.DS_Store
+.history
+.jest
+.vscode
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
